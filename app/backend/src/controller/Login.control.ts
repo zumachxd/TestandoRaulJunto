@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 import LoginService from '../services/Login.service';
 
+// testando git//
+
 export default class LoginControl {
   constructor(private service = new LoginService()) { }
 
