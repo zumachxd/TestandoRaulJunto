@@ -4,6 +4,8 @@ WORKDIR /app-backend
 
 COPY package.json .
 
+ENTRYPOINT [ "npm", "update", "-g" ]
+
 RUN npm install
 
 COPY . .
